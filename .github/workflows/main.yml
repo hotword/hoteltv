@@ -1,11 +1,30 @@
 name: itvlist
 
 on:
-  schedule:
-    - cron: '0 21 * * *'
-  push:
-    branches:
-      - main
+
+push:
+
+schedule:
+
+- cron: '0 2,11 * * *'
+
+workflow_dispatch:
+
+inputs:
+
+input:
+
+description: "Test"
+
+required: true
+
+default: "run" 
+
+jobs:
+
+build:        
+
+runs-on:ubuntu-latest
 
 jobs:
   build:
