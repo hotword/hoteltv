@@ -23,10 +23,10 @@ jobs:
       - name: Install dependencies
         run: pip install selenium requests futures eventlet
 
-      - name: Run itv_all
+     # - name: Run itv_all
         run: python ${{ github.workspace }}/itv_all.py
 
-      #- name: Run cctv
+      - name: Run cctv
         #run: python ${{ github.workspace }}/cctv.py
         
       #- name: Run weishi
