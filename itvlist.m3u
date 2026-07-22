@@ -1,5 +1,1 @@
 #EXTM3U
-#EXTINF:-1 group-title="卫视频道",河南卫视
-http://121.19.134.253:808/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视频道",青海卫视
-http://121.19.134.253:808/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
